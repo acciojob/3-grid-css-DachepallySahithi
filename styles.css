@@ -3,7 +3,7 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr); /* Three equal columns */
     gap: 10px; /* Spacing between grid items */
-    width: 960px; /* Fixed width to ensure consistent column sizes */
+    width: 963px; /* Adjusted width for expected column sizes */
     margin: 0 auto; /* Center align the grid container */
 }
 
@@ -15,7 +15,7 @@
     justify-content: center;
     align-items: center;
     text-align: center; /* Explicitly set text alignment */
-    height: 100px; /* Set a fixed height for consistency */
+    height: 100px; /* Fixed height */
     font-size: 16px;
     font-family: Arial, sans-serif;
 }
