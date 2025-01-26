@@ -1,1 +1,19 @@
 /*  your css code here. If applicable */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Three equal columns */
+    gap: 10px; /* Spacing between grid items */
+    width: 80%; /* Optional: Adjust width for alignment */
+    margin: 0 auto; /* Center align the grid container */
+}
+
+.grid-item {
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    display: flex; /* For centering content */
+    justify-content: center;
+    align-items: center;
+    height: 100px; /* Set a fixed height for consistency */
+    font-size: 16px; /* Optional: Adjust text size */
+    font-family: Arial, sans-serif; /* Optional: Set font style */
+}
