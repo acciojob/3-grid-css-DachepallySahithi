@@ -1,21 +1,13 @@
-/* General container styling */
-.grid-container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr); /* Three equal columns */
-    gap: 10px; /* Spacing between grid items */
-    width: 963px; /* Adjusted width for expected column sizes */
-    margin: 0 auto; /* Center align the grid container */
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 10px;
 }
 
-/* Styling for each grid item */
-.grid-item {
-    background-color: #f2f2f2;
-    border: 1px solid #ccc;
-    display: flex; /* For centering content */
-    justify-content: center;
-    align-items: center;
-    text-align: center; /* Explicitly set text alignment */
-    height: 100px; /* Fixed height */
-    font-size: 16px;
-    font-family: Arial, sans-serif;
+.box {
+  background-color: #f2f2f2;
+  border: 1px solid #ccc;
+  text-align: center;
+  padding: 20px; 
+  font-weight: bold;
 }
